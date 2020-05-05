@@ -1,0 +1,44 @@
+name: covid19
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.1
+  lottie: ^0.3.3
+  flutter_spinkit: "^4.1.2"
+  social_media_buttons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - images/
+
+  fonts:
+    - family: Anton
+      fonts:
+        - asset: fonts/Anton-Regular.ttf
+
+    - family: Teko
+      fonts:
+        - asset: fonts/Teko-Medium.ttf
+
+    - family: RobotoCondensed
+      fonts:
+        - asset: fonts/RobotoCondensed-Regular.ttf
+
+    - family: indieFlower
+      fonts:
+        - asset: fonts/indieFlower-Regular.ttf
